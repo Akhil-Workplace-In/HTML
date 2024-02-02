@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table, tr, td, th{
+            border: 2px solid black;
+            border-collapse: collapse;
+           
+        }
+    </style>
+</head>
+<body>
+    <!-- Table   -->
+        <table>
+            <colgroup>
+                <col span="1" style="background-color: blue;" > 
+            </colgroup>
+            
+            <tr>
+                <td rowspan="3">Day</td>
+                <td colspan="3">Seminar</td>
+               
+            </tr>
+            <tr>
+                
+                <td colspan="2">Schedule</td>
+                
+                <td rowspan="2">Topic</td>
+            </tr>
+            <tr>
+                
+                <td>Begin</td>
+                <td>End</td>
+                
+            </tr>
+             <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">8</td>
+                <td rowspan="2">5</td>
+                <td>Inroduction to XML</td>
+             </tr>
+             <tr>
+                
+                <td>Validity: DTD and Relax NG</td>
+             </tr> 
+        </table>
+</body>
+</html>
